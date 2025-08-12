@@ -123,6 +123,8 @@ To enable pitch accent, you simply need to take out all the `<!--` and `-->` par
 </div>
 ```
 
+**To see how pitch accent notation works, please see [this issue](https://github.com/donkuri/Kaishi/issues/104#issuecomment-3171889366)**.
+
 ### Minor options
 
 There are a couple of minor options you can modify.
