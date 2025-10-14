@@ -21,6 +21,7 @@ Contrary to most other Core-type decks, here furigana gives the reading of the w
 - [Other related decks](#other-related-decks)
 - [What options are available for the deck?](#what-options-are-available-for-the-deck)
 - [I don't like the images!](#i-dont-like-the-images)
+- [The audio for this word is wrong!](#the-audio-for-this-word-is-wrong)
 - [How to import Kaishi on top of another deck](#how-to-import-kaishi-on-top-of-another-deck)
 - [The genesis of the deck](#the-genesis-of-the-deck)
 - [Translation of the deck](#translation-of-the-deck)
@@ -170,6 +171,10 @@ b{color: #5586cd}
 ```
 
 You can find the various styling options [here](https://docs.ankiweb.net/templates/styling.html). As you can see, Kaishi 1.5k uses very little options in the style tab directly. You can change the `font-family` option to get different fonts, `font-size` to change the font size and `text-align` to change the alignment of the text, for instance if you'd like the text to be left aligned. By default, Kaishi 1.5k colors **bold** words. The option to change this is `b{color: }` as you can see above. Simply put a hexcode or a color name like `red` to get that color instead. If you would like no color, simply take out the whole `b{color: }` part.
+
+## The audio for this word is wrong!
+
+Certain words such as 次 (つぎ) and あげる have been reported as having "wrong" audio. This is because beginners often do not hear (and are not aware) of Japanese nasalization, where /g/ sounds can sound closer to /n/. Please see [this video](https://www.youtube.com/watch?v=xpzpbuFHVVU) for an explanation of how this works. **Unfortunately, better audio in the form of non-nasalized versions of these words is often not directly available.**
 
 ## How to import Kaishi on top of another deck
 
