@@ -2,51 +2,51 @@
 
 # Kaishi 1.5k
 
-Welcome to the public repository for **Kaishi 1.5k**, a modern Anki deck made to introduce beginners to basic Japanese vocabulary. Kaishi 1.5k is highly modular and this page is dedicated to explaining various options you can use to change the deck to your liking. Here is what the front of the deck looks like:
+Bienvenue sur le répertoire public pour **Kaishi 1.5k**, un deck Anki moderne créé pour permettre au débutants d'apprendre les bases du vocabulaire japonais. Kaishi 1.5k est habutement modulaire, et cette page est dédié à vous enseigner les différentes options que vous pouvez changer pour ajuster le deck selon vos préférences. Voici à quoi ressemble la face avant d'une carte :
 
 <img src="https://github.com/donkuri/Kaishi/blob/main/pics/kaishi-front.png" alt="Front of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
 
-As you can see, both the word and the sentences are there but the word is highlighted in the sentence, making it easy to immediately isolate the important information. Once the word is known well, reviewing is faster because the word appears first. Here is the backside of the default deck:
+Comme vous pouvez le voir, on trouve tant le mot que les phrases, mais le mot est mis en avant dans la phrase, ce qui permet de le distinguer plus rapidement. Une fois que le mot est bien connu, il est bien plus facile de le réviser, puisque le mot apparaît en premier. Voici à quoi ressemble la face arrière de la carte sur le deck par défaut :
 
 <img src="https://github.com/donkuri/Kaishi/blob/main/pics/kaishi-back.png" alt="Back of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
 
-Contrary to most other Core-type decks, here furigana gives the reading of the word, with the meaning right below. Audio for the word and for the sentence are then available for you. If you would like, you can also add pitch accent, see below. If there are notes related to that specifc card, they are displayed down below.
+Contrairement aux autres decks de type Core, ici les furiganas donnent la lecture du mot, suivi du sens du mot. L'audio, ainsi que la phrase sont ensuite disponibles. Rendez-vous plus bas pour découvrir comment ajouter les hauteurs d'accent. S'il existe des notes pour cette carte, elles sont affichés juste en-dessous. 
 
-[If you are new to Japanese or immersion, please read the guide first.](https://donkuri.github.io/learn-japanese/guide/)
+[Si vous êtes débutant·es en Japonais ou en immersion, lisez ce guide dans un premier temps.](https://donkuri.github.io/learn-japanese/fr/guide/)
 
-### Table of contents
+### Sommaire
 
-- [Where do I get the deck?](#where-do-i-get-the-deck)
-- [How do I use this deck?](#how-do-i-use-this-deck)
-- [Other related decks](#other-related-decks)
-- [What options are available for the deck?](#what-options-are-available-for-the-deck)
-- [I don't like the images!](#i-dont-like-the-images)
-- [The audio for this word is wrong!](#the-audio-for-this-word-is-wrong)
-- [How to import Kaishi on top of another deck](#how-to-import-kaishi-on-top-of-another-deck)
-- [The genesis of the deck](#the-genesis-of-the-deck)
-- [Translation of the deck](#translation-of-the-deck)
-- [What do I do after this deck?](#what-do-i-do-after-this-deck)
-- [Credits](#credits)
+- [Comment télécharger le deck ?](#comment-t%C3%A9l%C3%A9charger-le-deck-)
+- [Comment utiliser ce deck ?](#comment-utiliser-ce-deck-)
+- [Autres decks en lien](#autres-decks-en-lien)
+- [Quelles options sont disponibles pour ce deck ?](#quelles-options-sont-disponibles-pour-ce-deck-)
+- [L'audio ne correspond pas au mot !](#laudio-ne-correspond-pas-aux-mots-)
+- [Je n'aime pas les images !](#je-naime-pas-les-images-)
+- [Comment importer Kaishi dans un autre deck](#comment-importer-kaishi-dans-un-autre-deck)
+- [La genèse du deck](#la-genèse-du-deck)
+- [Traduction du deck](#traduction-du-deck)
+- [Que faire après ce deck ?](#que-faire-après-ce-deck-)
+- [Crédits](#crédits)
 
-## Where do I get the deck?
+## Comment télécharger le deck ?
 
-You can either get the deck on the [releases](https://github.com/donkuri/Kaishi/releases/) page of this GitHub or on [AnkiWeb](https://ankiweb.net/shared/info/1196762551), provided the deck is not undergoing review. **The deck is supported on Anki 2.1.50+.**
+Vous pouvez soit télécharger le deck sur la page [releases](https://github.com/donkuri/Kaishi/releases/) de ce GitHub ou sur AnkiWeb [AnkiWeb](https://ankiweb.net/shared/info/1196762551), si le deck n'est pas en cours de révision. **Ce deck fonctionne sur Anki 2.1.50+.**
 
-## How do I use this deck?
+## Comment utiliser ce deck ?
 
-For an explanation on how Kaishi fits in with learning Japanese more generally, see the [guide](https://donkuri.github.io/learn-japanese/guide/).
+Pour une explication sur la façon dont Kaishi s'intègre avec l'apprentissage du Japonais de manière générale, consultez ce [guide](https://donkuri.github.io/learn-japanese/fr/guide/).
 
-## Other related decks
+## Autres decks en lien
 
-ねむい made a radicals deck based on Kaishi 1.5k, linking every kanji radical found in it with the first word in Kaishi that features this radical. It also covers a few more radicals that aren't in Kaishi proper. You can **use this deck in parallel with Kaishi if you struggle with kanji**, because it introduces kanji radicals as you go, helping you break them down more efficiently. You can find the deck [here on AnkiWeb](https://ankiweb.net/shared/info/1722008986). Thank you ねむい!
+ねむい a créé un deck pour les radicaux basé sur celui de Kaishi 1.5k, reliant tous les kanjis de radicaux avec leur première occurence dans Kaishi. Il couvre aussi quelques radicaux supplémentaires qui ne sont pas dans Kaishi. Vous pouvez **utiliser ce deck en parallèle avec Kaishi si vous avez des difficultés avec les kanjis**, puisqu'il introduit les radicaux de kanjis au fur et à mesure, pour vous aider à mieux les lire. Vous pouvez trouver le deck [here on AnkiWeb](https://ankiweb.net/shared/info/1722008986). Merci ねむい !
 
-## What options are available for the deck?
+## Quelles options sont disponibles pour ce deck ?
 
-There are multiple options you can use to change your cards. To modify them, select the Kaishi deck, click `Browse`, select any card from the deck, and click `Cards...` on the top right.
+Il existe différentes options pour personnaliser vos cartes. Pour les modifier, sélectionnez le deck Kaishi, cliquez sur `Parcourir`, sélectionnez n'importe quelle carte du deck, puis cliquez sur `Cartes...` en haut à droite de la fenêtre.
 
-### Pitch Accent
+### Hauteurs d'accent
 
-The most important option is whether you would like to include pitch accent on your cards. Currently, whether one should learn pitch accent or not tends to spawn pretty heated arguments in the community. We decided to take a middle ground approach: the pitch accent data is there for you, you choose whether you want to use it. If you decide not to use it, you can always enable it later. The way you enable pitch accent is easy. Here is the card options under `Back Template` for the deck (click on the small dot above the `Search` bar.)
+L'option la plus importante est que vous pouvez choisir d'inclure ou non les hauteurs d'accents sur vos cartes. Actuellement, que l'on doive apprendre ou non les hauteurs d'accent soulève des débats houleux dans la communauté. Nous avons choisi de laissez le choix à l'apprenant·e, vous pouvez choisir de l'intégrer à votre apprentissage si vous le souhaitez. Si vous choisissez de ne pas activer l'option, vous pourrez toujours le faire plus tard. Activer les hauteurs d'accent est facile.  L'option se trouve dans les options de cartes à l'onglet `Modèle du verso` (cliquez sur le petit point).
 
 ```CSS
 <div lang="ja">
@@ -89,7 +89,7 @@ The most important option is whether you would like to include pitch accent on y
 </div>
 ```
 
-To enable pitch accent, you simply need to take out all the `<!--` and `-->` parts which represent comments, like so: 
+Pour activer les hauteurs d'accent, vous devez simplement effacer tous les `<!--` et `-->`, pour obtenir le résultat suivant : 
 
 ```CSS
 <div lang="ja">
@@ -124,18 +124,18 @@ To enable pitch accent, you simply need to take out all the `<!--` and `-->` par
 </div>
 ```
 
-**To see how pitch accent notation works, please see [this issue](https://github.com/donkuri/Kaishi/issues/104#issuecomment-3171889366)**.
+**Pour voir comment fonctionnent les hauteurs d'accent, consultez [cet issue](https://github.com/donkuri/Kaishi/issues/104#issuecomment-3171889366)**. (lien en anglais)
 
-### Minor options
+### Options secondaires
 
-There are a couple of minor options you can modify.
+Il existe quelques autres options que vous pouvez modifier.
 
 #### Furigana
-If you would like to take out furigana, simply take out the `furigana:` parts of the back template.
+Si vous voulez retirer les furigana, enlevez simplement les parties `furigana:` du modèle de verso.
 
-#### Other card options
+#### Autres options
 
-You could entirely change the type of cards you want to see. Here is the `Front Template` of Kaishi 1.5k:
+Vous pourriez complètement changer le type de cartes que vous voulez voir. Ci-dessous, le `Modèle du recto` de Kaishi 1.5k:
 
 ```CSS
 <div lang="ja">
@@ -144,11 +144,11 @@ You could entirely change the type of cards you want to see. Here is the `Front 
 </div>
 ```
 
-As you can see, we only have the word and the sentence. If you would like *sentence* cards, simply take out the `{{Word}}` part, or put `Sentence` inside instead and take out the rest. If you would like *word* cards, simply take out the `<div style='font-size: 20px;'>{{Sentence}}</div>` part. If instead you would like *audio* cards, take out everything and add `{{Word Audio}}`, `{{Sentence Audio}}` or both if you would like both.
+Comme vous pouvez le voir, nous avons seulement le mot et la phrase. Si vous voulez des cartes de *phrases*, retirez simplement la partie `{{Word}}`, ou mettez `Sentence` à l'intérieur et enlevez le reste. Si vous voulez des cartes de *mots*, retirez simplement la partie `<div style='font-size: 20px;'>{{Sentence}}</div>`. Si au contraire vous voulez des cartes *audio*, retirez tout et ajoutez `{{Word Audio}}`, `{{Sentence Audio}}` ou les deux si vous le souhaitez.
 
-#### Changing the fonts, font size or other styling options
+#### Changer les fontes, tailles de police et autres options de style
 
-Here is the `Styling` template of Kaishi 1.5k:
+Voici le modèle de `Styling` de Kaishi 1.5k:
 
 ```CSS
 .card {
@@ -172,11 +172,11 @@ b{color: #5586cd}
 
 You can find the various styling options [here](https://docs.ankiweb.net/templates/styling.html). As you can see, Kaishi 1.5k uses very little options in the style tab directly. You can change the `font-family` option to get different fonts, `font-size` to change the font size and `text-align` to change the alignment of the text, for instance if you'd like the text to be left aligned. By default, Kaishi 1.5k colors **bold** words. The option to change this is `b{color: }` as you can see above. Simply put a hexcode or a color name like `red` to get that color instead. If you would like no color, simply take out the whole `b{color: }` part.
 
-## The audio for this word is wrong!
+## L'audio ne correspond pas aux mots !
 
 Certain words such as 次 (つぎ) and あげる have been reported as having "wrong" audio. This is because beginners often do not hear (and are not aware) of Japanese nasalization, where /g/ sounds can sound closer to /n/. Please see [this video](https://www.youtube.com/watch?v=xpzpbuFHVVU) for an explanation of how this works. **Unfortunately, better audio in the form of non-nasalized versions of these words is often not directly available.**
 
-## How to import Kaishi on top of another deck
+## Comment importer Kaishi dans un autre deck
 
 If you already started Core2k or Tango N4-N5 (or some other similar deck) and you would like to switch to Kaishi 1.5k, you can follow these steps written by [Kuuube](https://github.com/Kuuuube).
 
@@ -194,7 +194,7 @@ If you already started Core2k or Tango N4-N5 (or some other similar deck) and yo
 
 **If you're importing on top of Core 2.3k, please see [this](https://github.com/Manhhao/anki.transfer-review-history).**
 
-## I don't like the images!
+## Je n'aime pas les images !
 
 That's fair. Finding 1500 consistent and free pictures to use for the deck was a tremendous challenge (thank you again for this [liarbeast](https://github.com/liarbeast)!). As a result, a bunch of pictures do not align perfectly with the sentence or the word. That's valid criticism, and if you would like to take the picture out, here's what you should do. Open up Cards...` after clicking on a Kaishi card in the browser. Look for the `Back` template. In it, you will find `{{Picture}}`. Simply take it out. Alternatively, just replace everything with the following:
 
@@ -238,7 +238,7 @@ That's fair. Finding 1500 consistent and free pictures to use for the deck was a
 </div>
 ```
 
-## The genesis of the deck
+## La genèse du deck
 
 This deck has its origin in a discussion between Tyogin and myself in the [TMW discord server](https://learnjapanese.moe/join/). We were both lamenting the fact that the popular beginner decks at the time had annoying flaws. Beginners kept getting confused when using Core 2k and Tango due to various issues. Tango had some obscure words in it such as ナンプラー which is a Thai fish sauce and many people weren't really interested in all the basic phrases and country names taking up such a large amount of the deck. The deck's fields were formatted terribly which made it impossible to use the deck in a different way than was originally intended, which was sentence cards. Core 2k on the other hand was modular, but had multiple mistranslations, missing or unrelated pictures and some of the sentences weren't very useful, sometimes not even reflecting the meaning of the word used.
 
@@ -246,15 +246,15 @@ Both of these issues were annoying enough that we would get beginners asking que
 
 Kaishi, written 開始 means "start, beginning". We thought this fit properly so we decided on this name. Hopefully, this deck will be a wonderful start to your Japanese learning journey.
 
-## What do I do after this deck?
+## Que faire après ce deck ?
 
 [Start mining](https://donkuri.github.io/learn-japanese/guide/#consuming-native-content) if you haven't already. See [this](https://github.com/donkuri/japanese-resources/?tab=readme-ov-file#mining) for a list of mining notetypes.
 
-## Translation of the deck
+## Traduction du deck
 
 If you are interested in translating the deck in your native language, please make an issue on [the GitHub tracker](https://github.com/donkuri/Kaishi/issues). The deck has already been translated in **[Russian](https://github.com/NeonGooRoo/KaishiRu)**, **[Indonesian](https://ankiweb.net/shared/info/1512066033)**, **[Vietnamese](https://github.com/duy103zxc/kaishi-vi/releases)**, **[Ukrainian](https://github.com/maksiksq/KaishiUa)**, **[Brazilian Portuguese](https://github.com/nonsolvent/Kaishi-pt-BR)**, **[Spanish](https://github.com/Dogi5/Kaishi-ESP)** and **[Mandarin](https://github.com/maimemo/kaishi-zh-cn/)**.
 
-## Credits
+## Crédits
 
 This deck was made with the help of these people:
 
