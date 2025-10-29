@@ -2,15 +2,15 @@
 
 # Kaishi 1.5k
 
-Bienvenue sur le répertoire public pour **Kaishi 1.5k**, un deck Anki moderne créé pour permettre au débutants d'apprendre les bases du vocabulaire japonais. Kaishi 1.5k est habutement modulaire, et cette page est dédié à vous enseigner les différentes options que vous pouvez changer pour ajuster le deck selon vos préférences. Voici à quoi ressemble la face avant d'une carte :
+Bienvenue sur le répertoire public pour **Kaishi 1.5k**, un deck Anki moderne créé pour permettre aux débutants d'apprendre les bases du vocabulaire japonais. Kaishi 1.5k est hautement modulaire, et cette page est dédiée à vous enseigner les différentes options que vous pouvez modifier pour ajuster le deck selon vos préférences. Voici à quoi ressemble la face avant d'une carte :
 
 <img src="https://github.com/donkuri/Kaishi/blob/main/pics/kaishi-front.png" alt="Front of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
 
-Comme vous pouvez le voir, on trouve tant le mot que les phrases, mais le mot est mis en avant dans la phrase, ce qui permet de le distinguer plus rapidement. Une fois que le mot est bien connu, il est bien plus facile de le réviser, puisque le mot apparaît en premier. Voici à quoi ressemble la face arrière de la carte sur le deck par défaut :
+Comme vous pouvez le voir, on y trouve le mot et la phase, dans laquelle le mot est mis en avant, ce qui permet de le distinguer plus rapidement. Une fois que le mot est bien connu, il est bien plus facile de le réviser, puisque le mot apparaît en premier. Voici à quoi ressemble la face arrière de la carte sur le deck par défaut :
 
 <img src="https://github.com/donkuri/Kaishi/blob/main/pics/kaishi-back.png" alt="Back of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
 
-Contrairement aux autres decks de type Core, ici les furiganas donnent la lecture du mot, suivi du sens du mot. L'audio, ainsi que la phrase sont ensuite disponibles. Rendez-vous plus bas pour découvrir comment ajouter les hauteurs d'accent. S'il existe des notes pour cette carte, elles sont affichés juste en-dessous. 
+Contrairement aux autres decks de type Core, on découvre la lecture du mot avec les furiganas avant de voir sa signification. L'audio, ainsi que la phrase sont ensuite disponibles. Rendez-vous plus bas pour découvrir comment ajouter les hauteurs d'accent. S'il existe des notes pour cette carte, elles sont affichés juste en-dessous. 
 
 [Si vous êtes débutant·es en Japonais ou en immersion, lisez ce guide dans un premier temps.](https://donkuri.github.io/learn-japanese/fr/guide/)
 
@@ -38,7 +38,7 @@ Pour une explication sur la façon dont Kaishi s'intègre avec l'apprentissage d
 
 ## Autres decks en lien
 
-ねむい a créé un deck pour les radicaux basé sur celui de Kaishi 1.5k, reliant tous les kanjis de radicaux avec leur première occurence dans Kaishi. Il couvre aussi quelques radicaux supplémentaires qui ne sont pas dans Kaishi. Vous pouvez **utiliser ce deck en parallèle avec Kaishi si vous avez des difficultés avec les kanjis**, puisqu'il introduit les radicaux de kanjis au fur et à mesure, pour vous aider à mieux les lire. Vous pouvez trouver le deck [here on AnkiWeb](https://ankiweb.net/shared/info/1722008986). Merci ねむい !
+ねむい a créé un deck pour les radicaux basé sur celui de Kaishi 1.5k, reliant tous les radicaux avec leur première occurrence dans Kaishi. Il couvre aussi quelques radicaux supplémentaires qui ne sont pas dans Kaishi. Vous pouvez **utiliser ce deck en parallèle avec Kaishi si vous avez des difficultés avec les kanjis**, puisqu'il introduit les radicaux de kanjis au fur et à mesure, pour vous aider à mieux les lire. Vous pouvez trouver le deck [here on AnkiWeb](https://ankiweb.net/shared/info/1722008986). Merci ねむい !
 
 ## Quelles options sont disponibles pour ce deck ?
 
@@ -46,7 +46,7 @@ Il existe différentes options pour personnaliser vos cartes. Pour les modifier,
 
 ### Hauteurs d'accent
 
-L'option la plus importante est que vous pouvez choisir d'inclure ou non les hauteurs d'accents sur vos cartes. Actuellement, que l'on doive apprendre ou non les hauteurs d'accent soulève des débats houleux dans la communauté. Nous avons choisi de laissez le choix à l'apprenant·e, vous pouvez choisir de l'intégrer à votre apprentissage si vous le souhaitez. Si vous choisissez de ne pas activer l'option, vous pourrez toujours le faire plus tard. Activer les hauteurs d'accent est facile.  L'option se trouve dans les options de cartes à l'onglet `Modèle du verso` (cliquez sur le petit point).
+L'option la plus importante est que vous pouvez choisir d'inclure ou non les hauteurs d'accents sur vos cartes. Actuellement, que l'on doive apprendre ou non les hauteurs d'accent soulève encore des débats houleux dans la communauté. Nous avons choisi de laissez le choix à l'apprenant·e, vous pouvez anisi choisir de l'intégrer à votre apprentissage si vous le souhaitez. Si vous choisissez de ne pas activer l'option, vous pourrez toujours le faire plus tard. Activer les hauteurs d'accent est facile.  L'option se trouve dans les options de cartes à l'onglet `Modèle du verso` (cliquez sur le petit point).
 
 ```CSS
 <div lang="ja">
@@ -131,7 +131,7 @@ Pour activer les hauteurs d'accent, vous devez simplement effacer tous les `<!--
 Il existe quelques autres options que vous pouvez modifier.
 
 #### Furigana
-Si vous voulez retirer les furigana, enlevez simplement les parties `furigana:` du modèle de verso.
+Si vous voulez retirer les furiganas, enlevez simplement les parties `furigana:` du modèle de verso.
 
 #### Autres options
 
@@ -144,7 +144,7 @@ Vous pourriez complètement changer le type de cartes que vous voulez voir. Ci-d
 </div>
 ```
 
-Comme vous pouvez le voir, nous avons seulement le mot et la phrase. Si vous voulez des cartes de *phrases*, retirez simplement la partie `{{Word}}`, ou mettez `Sentence` à l'intérieur et enlevez le reste. Si vous voulez des cartes de *mots*, retirez simplement la partie `<div style='font-size: 20px;'>{{Sentence}}</div>`. Si au contraire vous voulez des cartes *audio*, retirez tout et ajoutez `{{Word Audio}}`, `{{Sentence Audio}}` ou les deux si vous le souhaitez.
+Comme vous pouvez le voir, nous avons seulement le mot et la phrase. Si vous voulez des cartes contenantant seulement la *phrase*, retirez la partie `{{Word}}`, ou mettez `Sentence` à l'intérieur et enlevez le reste. Si vous voulez des cartes contenat uniquement les *mots*, retirez simplement la partie `<div style='font-size: 20px;'>{{Sentence}}</div>`. Si au contraire vous voulez des cartes *audio*, retirez tout et ajoutez `{{Word Audio}}`, `{{Sentence Audio}}` ou les deux si vous le souhaitez.
 
 #### Changer les fontes, tailles de police et autres options de style
 
@@ -166,37 +166,37 @@ max-height: 250px;
 max-width: 50vw;
 }
 
-/* This part defines the bold color. */
+/* Cette partie définit la couleur des mots en gras. */
 b{color: #5586cd}
 ```
 
-You can find the various styling options [here](https://docs.ankiweb.net/templates/styling.html). As you can see, Kaishi 1.5k uses very little options in the style tab directly. You can change the `font-family` option to get different fonts, `font-size` to change the font size and `text-align` to change the alignment of the text, for instance if you'd like the text to be left aligned. By default, Kaishi 1.5k colors **bold** words. The option to change this is `b{color: }` as you can see above. Simply put a hexcode or a color name like `red` to get that color instead. If you would like no color, simply take out the whole `b{color: }` part.
+Vous pouvez trouver les différentes options de style [ici](https://docs.ankiweb.net/templates/styling.html). Comme vous pouvez le oir, kaishi 1.5k utilise très peu d'options dans l'onglet Styles. Vous pouvez changer l'option `font-family` si vous souhaitez utiliser une autre typographie, `font-size` pour changer la taille de la fonte et `text-align` pour modifier l'alignement du texte, si vous souhaitez que le texte soit aligné à gauche par exemple. Par défaut, Kaishi 1.5k colore les mots en **gras**. L'option pour changer cela est `b{color: }`, comme vous pouvez le voir ci-dessus. Mettez simplement un code hexadécimal ou un nom de couleur en anglais comme `red` pour l'appliquer à la place. Si vous ne voulez aucune color, retirez cette ligne.
 
 ## L'audio ne correspond pas aux mots !
 
-Certain words such as 次 (つぎ) and あげる have been reported as having "wrong" audio. This is because beginners often do not hear (and are not aware) of Japanese nasalization, where /g/ sounds can sound closer to /n/. Please see [this video](https://www.youtube.com/watch?v=xpzpbuFHVVU) for an explanation of how this works. **Unfortunately, better audio in the form of non-nasalized versions of these words is often not directly available.**
+Certains mots comme 次 (つぎ) et あげる ont été reportés comme ayant un "mauvais" audio. C'est parce que souvent les débutant·es n'entendent pas (et ne connaissent pas) la nasalisation Japonaise, où le son du /g/ peut sembler plus proche du /n/. Regardez [cette vidéo](https://www.youtube.com/watch?v=xpzpbuFHVVU) pour comprendre comment cela fonctionne. **Malheureusement, un audio avec une forme non-nasalisée de ces mots est rarement disponible.**
 
 ## Comment importer Kaishi dans un autre deck
 
-If you already started Core2k or Tango N4-N5 (or some other similar deck) and you would like to switch to Kaishi 1.5k, you can follow these steps written by [Kuuube](https://github.com/Kuuuube).
+Si vous avez déjà commencé Core2k ou Tango N4-N5 (ou tout autre deck similaire) et que vous souhaitez passer à Kaishi 1.5k, vous pouvez suivre cette procédure, écrite par [Kuuube](https://github.com/Kuuuube).
 
-1. Import Kaishi normally with the .apkg file.
-2. Go to `File > Export...` and export the Kaishi deck using `Notes in Plain Text (.txt)`. Leave all other settings default.
-3. Delete the Kaishi deck.
-4. Select the deck you want to import Kaishi on top of, select `Browse`, click any card, press `ctrl + a`, and select `Notes > Change Note Type...` on the top left menu. Make sure all notes you selected are of the same note type or else `Notes > Change Note Type...` may not show up.
-5. Change to the `Kaishi 1.5k` note type. Make sure the `Word` field in the `New` column shows the field your deck uses for the word next to it.
-    If you don't intend to delete any cards from your current deck that are not in Kaishi, make sure your other fields are lined up to the correct places too. Otherwise you can use the defaults and click `Save`.
-6. Import the Kaishi .txt file exported in step 2.
-7. When importing, make sure the Notetype is set to `Kaishi 1.5k` and the Deck is set to the deck you want to import on top of. 
-  If you intend on deleting cards not in Kaishi, add the tag `Kaishi` in the `Tag all notes` option.
-8. Click `Import`.
-9. To delete cards not in Kaishi, select your deck, click `Browse`, select your deck in left menu, append ` -tag:Kaishi` to the search bar, select any card, press `ctrl + a`, on the top left menu and go to `Notes > Delete`.
+**Attention : procédure non-testée avec la version française du deck de Kaishi 1.5k !**
 
-**If you're importing on top of Core 2.3k, please see [this](https://github.com/Manhhao/anki.transfer-review-history).**
+1. Importez Kaishi normalement avec le fichier .apkg
+2. Allez dans `Fichier > Exporter...` et exportez le deck Kaishi en utilisant `Notes en texte (.txt)`. Laissez tous les autres paramètres par défaut.
+3. Supprimez le deck Kaishi.
+4. Sélectionnez le deck dans lequel vous voulez importer Kaishi, sélectionnez `Parcourir`, cliquez sur n'importe quelle carte, appuyez sur `ctrl + a`, et sélectionnez `Notes > Modifier le type de la note...` dans le menu en haut de la fenêtre. Assurez-vous que toutes les notes que vous avez sélectionné sont du même type de notes, ou sinon `Notes > Modifier le type de la note...` risque de ne pas apparaître.
+5. Changez le type de note pour `Kaishi 1.5k`. Assurez-vous que le champ `Word` dans la colonne `Nouvelle` indique le champ que votre deck utilise pour les mots. Si vous ne souhaitez supprimer aucune carte de votre deck actuel qui ne sont pas pas dans kaishi, assurez-vous que les anciens champs sont correctement alignés avec les nouveaux. Sinon, vous pouvez choisir les options par défaut et cliquer sur `Enregistrer`.
+6. Importez le .txt exporté depuis Kaishi à l'étape 2.
+7. Lors de l'import, assurez-vous que le type de note est défini sur `Kaishi 1.5k` et que le deck sélectionné est bien celui dans lequel vous souhaitez importer Kaishi. Si vous souhaitez supprimez les cartes qui ne sont pas dans Kaishi, ajoutez le tag `Kaishi` dans l'option `Ajouter une étiquette à toutes les notes`.
+8. Cliquez sur `Importer`.
+9. Pour supprimer les cartes qui ne sont pas dans Kaishi, sélectionnez votre deck, cliquez sur `Parcourir`, sélectionnez votre deck dans le menu de gauche, tapez ` -tag:Kaishi` dans la barre de recherche, sélectionnez n'importe quelle carte, appuyez sur `ctrl + a`, puis sur `Notes > Supprimer` dans le menu en haut de la fenêtre.
+
+**Si vous importez sur le deck Core 2.3k, assurez-vous de consulter [ce lien](https://github.com/Manhhao/anki.transfer-review-history).**
 
 ## Je n'aime pas les images !
 
-That's fair. Finding 1500 consistent and free pictures to use for the deck was a tremendous challenge (thank you again for this [liarbeast](https://github.com/liarbeast)!). As a result, a bunch of pictures do not align perfectly with the sentence or the word. That's valid criticism, and if you would like to take the picture out, here's what you should do. Open up Cards...` after clicking on a Kaishi card in the browser. Look for the `Back` template. In it, you will find `{{Picture}}`. Simply take it out. Alternatively, just replace everything with the following:
+Pas de problème. Trouvez 1500 images gratuites et cohérentes à utiliser pour ce deck était un sacré challenge (merci encore pour ton aide [liarbeast](https://github.com/liarbeast)!). Il en résulte que certaines images ne sont pas tout à fait alignées avec la phrase ou le mot. C'est une critique valide, et si vous voulez retirer les images, voici ce que vous devriez faire. Cliquez sur `Cartes...`après avoir cliqué sur une carte Kaishi dans le navigateur. Cherchez l'option `Modèle du verso`. À l'intérieur, vous verrez écrit `{{Picture}}`. Enlevez-le tout simplement. Alternativement, vous pouvez tout remplacer avec la disposition suivante :
 
 ```html
 <div lang="ja">
@@ -240,54 +240,50 @@ That's fair. Finding 1500 consistent and free pictures to use for the deck was a
 
 ## La genèse du deck
 
-This deck has its origin in a discussion between Tyogin and myself in the [TMW discord server](https://learnjapanese.moe/join/). We were both lamenting the fact that the popular beginner decks at the time had annoying flaws. Beginners kept getting confused when using Core 2k and Tango due to various issues. Tango had some obscure words in it such as ナンプラー which is a Thai fish sauce and many people weren't really interested in all the basic phrases and country names taking up such a large amount of the deck. The deck's fields were formatted terribly which made it impossible to use the deck in a different way than was originally intended, which was sentence cards. Core 2k on the other hand was modular, but had multiple mistranslations, missing or unrelated pictures and some of the sentences weren't very useful, sometimes not even reflecting the meaning of the word used.
+Les origines de ce deck remontent à une discussion entre Tyogin et Donkuri sur le [serveur discord TMV](https://learnjapanese.moe/join/). Nous étions tous les deux en train de nous lamenter quant au fait que les decks de débutants les plus populaires à cette époque avait d'ennuyants défauts. Les débutant·es étaient souvent mis en difficulté en utilisant Core 2k et Tango à cause de divers problèmes. Tango comportait des mots obscurs comme ナンプラー qui est une sauce thai au poisson, et beaucoup de gens n'étaient pas intéressés dans l'apprentissage de toutes les phrases basiques et des noms de pays, qui prenaient pourtant une grande partie sur le deck. Les champs du deck étaient mal formatés, ce qui rendait difficile l'utilisation du deck dans un usage autre que celui originellement prévu, c'est-à-dire les cartes de phrase. Core 2k, de l'autre côté, était modulaire, mais comportait de multiples erreurs de traductions, des images manquantes ou inappropriés, et quelques phrases n'étaient pas très utiles, ne reflétant parfois même pas le sens du mot.
 
-Both of these issues were annoying enough that we would get beginners asking questions about it every two weeks. Tyogin proposed we fix the issue ourselves and a small team was assembled to fix these issues. We mostly took data from Core2k, Core10k, Tango N4 and Tango N5. We then combined the data, sorted the words by frequency using various Yomichan/Yomitan frequency dictionaries and selected around 1500 words. We then fixed the translations for each word, chose the best sentence for each word and fixed the sentence if it needed fixing. We had to fix roughly 120 sentences out of the 1500 we chose. Following this, we obtained both pitch accent data and word audio for words that were missing proper audio from [AJT Japanese](https://ankiweb.net/shared/info/1344485230), and a team of two people (Karifurai and cindsa) verified the pitch accent data. They also added pitch accent notes for words that needed it. We then cropped silent parts in the audio and normalized the audio level between the various files. On top of that, we also produced furigana from AJT Japanese for the words and the sentences. After this, we designed a basic hint targeted sentences card CSS to be used on the default version of the deck. Finally, multiple people proofread the deck to make sure we had as few errors as possible.
+Ces problèmes étaient si gênants que nous rencontrions des débutant·es qui posaient des questions sur le sujet toutes les deux semaines. Tyogin proposé que nous résolvions le problème nous-mêmes et une petite équipe s'est mise au travail. Nous avons regroupé la plupart des données de Core2k, Core10k, Tango N4 et Tango N5. Nous avons ensuite assemblé ces données, trié les mots par fréquence d'usage à l'aide des dictoinnaires de fréquences de Yomichan/Yomitan et sélectionné 1500 mots. Nous avons ensuite arrangé la traduction de chaque mot, choisi la meilleure phrase pour chaque mot, et ajouté une phrase quand cela était nécessaire. Nous avons du arrangé environ 120 phrases sur les 1500 sélectionnées. Suite à ça, nous avons obtenu les données sur les hauteurs d'accent et des audios puor les mots qui n'en possédaient pas sur [AJT Japanese](https://ankiweb.net/shared/info/1344485230), et une équipe de deux personnes (Karifurai et cindsa) a vérifié toutes ces données. Ils ont aussi ajouté des notes lorsque cela était nécessaire. Nous avons ensuite supprimé les parties silencieuses sur les audios, et normalisé le volume sonore entre les différents fichiers. Nous avons également introduit les furiganas depusi AJT Japanese pour les mots et les phrases. Ensuite, nous avons designé les phrases indices en CSS pour la version par défaut du deck. Enfin, de nombreuses personnes ont relu le deck pour s'assurer qu'il comportait le moins d'erreur possibles.
 
-Kaishi, written 開始 means "start, beginning". We thought this fit properly so we decided on this name. Hopefully, this deck will be a wonderful start to your Japanese learning journey.
+Kaishi, écrit 開始 signifie "commencement, début". Nous avons pensé que ce mot conviendrait parfaitement pour nommer ce deck. Nous espérons que ce deck sera un merveilleux départ dans votre voyage pour l'apprentissage de la langue Japonaise.
 
 ## Que faire après ce deck ?
 
-[Start mining](https://donkuri.github.io/learn-japanese/guide/#consuming-native-content) if you haven't already. See [this](https://github.com/donkuri/japanese-resources/?tab=readme-ov-file#mining) for a list of mining notetypes.
+[Commencez à miner](https://donkuri.github.io/learn-japanese/fr/guide/#consuming-native-content) si ce n'est pas déjà le cas. Consultez [ce guide](https://github.com/donkuri/japanese-resources/?tab=readme-ov-file#mining) pour une liste des types de note de minage.
 
 ## Traduction du deck
 
-If you are interested in translating the deck in your native language, please make an issue on [the GitHub tracker](https://github.com/donkuri/Kaishi/issues). The deck has already been translated in **[Russian](https://github.com/NeonGooRoo/KaishiRu)**, **[Indonesian](https://ankiweb.net/shared/info/1512066033)**, **[Vietnamese](https://github.com/duy103zxc/kaishi-vi/releases)**, **[Ukrainian](https://github.com/maksiksq/KaishiUa)**, **[Brazilian Portuguese](https://github.com/nonsolvent/Kaishi-pt-BR)**, **[Spanish](https://github.com/Dogi5/Kaishi-ESP)** and **[Mandarin](https://github.com/maimemo/kaishi-zh-cn/)**.
+Si vous souhaitez traduire le deck dans votre langue maternelle, créez une issue sur [le Github principal](https://github.com/donkuri/Kaishi/issues). Le deck a déjà été traduit en **[Russe](https://github.com/NeonGooRoo/KaishiRu)**, **[Indonésien](https://ankiweb.net/shared/info/1512066033)**, **[Vietnamien](https://github.com/duy103zxc/kaishi-vi/releases)**, **[Ukrainien](https://github.com/maksiksq/KaishiUa)**, **[Portugais brésilien](https://github.com/nonsolvent/Kaishi-pt-BR)**, **[Espagnol](https://github.com/Dogi5/Kaishi-ESP)** et **[Mandarin](https://github.com/maimemo/kaishi-zh-cn/)**.
 
 ## Crédits
 
-This deck was made with the help of these people:
+Ce deck a été réalisé avec l'aide de ces personnes :
 
-[栗](https://github.com/donkuri/) - main architect, all technical aspects, translations, proofreading
+[栗](https://github.com/donkuri/) - architecte principal, conception technique, traductions, relecture
 
-Tyogin - main architect, reordered the first 200 cards, changed the sentences, proofreading
+Tyogin - architecte principal, a réarrangé les 200 premières cartes, changé les phrases, relectures
 
-shoui - proofreading the entire deck, fixed translations
+shoui - relecture de tout le deck, correction de traductions
 
-Julian - helped add notes and checked some sentence translations
+Julian - a aidé à ajouter des notes et vérifié quelques phrases de traductions
 
-karifurai - verified the pitch accent for the first 750 cards and added pitch notes
+karifurai - a verifié les hauteurs d'accent pour les 750 premières cartes et ajouté les notes d'accent
 
-cindsa - verified the pitch accent for the last 750 cards and added pitch notes
+cindsa - a verifié les hauteurs d'accent pour les 750 dernières cartes et ajouté les notes d'accent
 
-[Kuuube](https://github.com/Kuuuube) - suggested the use of FFmpeg, wrote the transferring cards to Kaishi 1.5k section above
+[Kuuube](https://github.com/Kuuuube) - a suggéré l'usage de FFmpeg, écrit la section de transfert des cartes pour Kaishi 1.5k ci-dessus
 
-[stephenmk](https://github.com/stephenmk) - ran the Jmdict Furigana tool on Kaishi 1.5k to fix furigana, see v1.3.0
+[stephenmk](https://github.com/stephenmk) - a exécuté le Jmdict Furigana tool sur Kaishi 1.5k pour corriger les furiganas, voir v1.3.0
 
-[Kaanium](https://github.com/kaanium) - helped make a script to convert the deck to the writing version
+[Kaanium](https://github.com/kaanium) - a aidé à faire un script pour convetir le deck en version d'écriture
 
-[Lars](https://github.com/liarbeast) - added pictures from [irasutoya](https://www.irasutoya.com/)
+[Lars](https://github.com/liarbeast) - a ajouté des images de [irasutoya](https://www.irasutoya.com/)
 
-These tools were used in the creation of the deck:
+Ces outils ont été utilisé dans la conception du deck:
 
-[AJT Japanese](https://github.com/Ajatt-Tools/Japanese) - pitch accent, furigana and some of the audio were generated using this add-on
+[AJT Japanese](https://github.com/Ajatt-Tools/Japanese) - hauteur d'accent, furigana et quelques audios ont été généré avec cet add-on
 
-[FFmpeg](https://ffmpeg.org/) - used to take out some silent parts in various audio files
+[FFmpeg](https://ffmpeg.org/) - utilisé pour retirer certaines parties silencieuses des audios
 
-[Tenacity](https://tenacityaudio.org/) - used to edit clipping sounds in various audio files
+[Tenacity](https://tenacityaudio.org/) - utilisé pour découper certains fichiers audios
 
-We also got various ideas from multiple members of the TMW discord server, including the name of the deck itself. The sentences themselves come from various Core decks found on Ankiweb.
-
-
-
-
+Nous avons aussi reçu de nombreuses idées de divers membres du serveur discord TMW, incluant le nom même du deck. Les phrases viennent quand à elles des divers decks Core que l'on trouve sur Ankiweb.
