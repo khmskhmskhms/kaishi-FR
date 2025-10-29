@@ -30,7 +30,7 @@ Contrairement aux autres decks de type Core, on découvre la lecture du mot avec
 
 ## Comment télécharger le deck ?
 
-Vous pouvez soit télécharger le deck sur la page [releases](https://github.com/donkuri/Kaishi/releases/) de ce GitHub ou sur AnkiWeb [AnkiWeb](https://ankiweb.net/shared/info/1196762551), si le deck n'est pas en cours de révision. **Ce deck fonctionne sur Anki 2.1.50+.**
+Vous pouvez soit télécharger le deck sur la page [releases](https://github.com/khmskhmskhms/kaishi-FR/releases) de ce GitHub ou sur AnkiWeb [AnkiWeb](https://ankiweb.net/shared/info/1196762551), si le deck n'est pas en cours de révision. **Ce deck fonctionne sur Anki 2.1.50+.**
 
 ## Comment utiliser ce deck ?
 
