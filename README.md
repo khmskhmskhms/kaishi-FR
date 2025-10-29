@@ -278,6 +278,8 @@ cindsa - a verifié les hauteurs d'accent pour les 750 dernières cartes et ajou
 
 [Lars](https://github.com/liarbeast) - a ajouté des images de [irasutoya](https://www.irasutoya.com/)
 
+Traduction française réalisée par [khmskhmskhms](https://github.com/khmskhmskhms) avec la précieuse aide technique et de relecture de [Fref](https://github.com/fref) et [Brice](https://github.com/brice)
+
 Ces outils ont été utilisé dans la conception du deck:
 
 [AJT Japanese](https://github.com/Ajatt-Tools/Japanese) - hauteur d'accent, furigana et quelques audios ont été généré avec cet add-on
