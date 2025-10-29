@@ -1,14 +1,14 @@
-**ANY OTHER DECK NOT MENTIONED ON THIS PAGE IS NOT AFFILIATED WITH ME, INCLUDING ANY AI OR PAID MODIFICATIONS.**
+**TOUT AUTRE DECK NON MENTOINNÉSUR CETTE PAGE N'EST PAS AFFILIÉ À MOI OU AU PROJET KAISHI 1.5K INITIAL, Y COMPRIS TOUTES MODIFICATIONS PAR IA OU PAYANTES.**
 
 # Kaishi 1.5k
 
 Bienvenue sur le répertoire public pour **Kaishi 1.5k**, un deck Anki moderne créé pour permettre aux débutants d'apprendre les bases du vocabulaire japonais. Kaishi 1.5k est hautement modulaire, et cette page est dédiée à vous enseigner les différentes options que vous pouvez modifier pour ajuster le deck selon vos préférences. Voici à quoi ressemble la face avant d'une carte :
 
-<img src="https://github.com/donkuri/Kaishi/blob/main/pics/kaishi-front.png" alt="Front of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
+<img src="https://github.com/khmskhmskhms/kaishi-FR/blob/main/anki_recto.png" alt="Face recto d'une carte dans Kaishi 1.5k" style="width: 100%; height: auto">
 
 Comme vous pouvez le voir, on y trouve le mot et la phase, dans laquelle le mot est mis en avant, ce qui permet de le distinguer plus rapidement. Une fois que le mot est bien connu, il est bien plus facile de le réviser, puisque le mot apparaît en premier. Voici à quoi ressemble la face arrière de la carte sur le deck par défaut :
 
-<img src="https://github.com/donkuri/Kaishi/blob/main/pics/kaishi-back.png" alt="Back of a Card in Kaishi 1.5k" style="width: 100%; height: auto">
+<img src="https://github.com/khmskhmskhms/kaishi-FR/blob/main/anki_verso.png" alt="Face verso d'une carte dans Kaishi 1.5k" style="width: 100%; height: auto">
 
 Contrairement aux autres decks de type Core, on découvre la lecture du mot avec les furiganas avant de voir sa signification. L'audio, ainsi que la phrase sont ensuite disponibles. Rendez-vous plus bas pour découvrir comment ajouter les hauteurs d'accent. S'il existe des notes pour cette carte, elles sont affichés juste en-dessous. 
 
@@ -52,7 +52,7 @@ L'option la plus importante est que vous pouvez choisir d'inclure ou non les hau
 <div lang="ja">
 {{furigana:Word Furigana}}
 
-<!-- This part enables pitch accent.
+<!-- Cette partie active les hauteurs d'accent.
 
 {{#Pitch Accent}}
 	<br><div style='font-size: 24px'>{{Pitch Accent}}</div>
@@ -74,11 +74,11 @@ L'option la plus importante est que vous pouvez choisir d'inclure ou non les hau
 	<div style="font-size: 20px; padding-top:12px">Note: {{Notes}}</div>
 {{/Notes}}
 
-<!-- This part enables pitch accent notes.
+<!-- Cette partie active les notes d'accent
 
 {{#Pitch Accent Notes}}
 <div style="font-size: 20px; width: fit-content; max-width:40vw; margin: auto">
-	<details><summary>Pitch Accent Notes</summary>
+	<details><summary>Note d'accent</summary>
 		<br>{{Pitch Accent Notes}}
 	</details>
 </div>
@@ -115,7 +115,7 @@ Pour activer les hauteurs d'accent, vous devez simplement effacer tous les `<!--
 
 {{#Pitch Accent Notes}}
 <div style="font-size: 20px; width: fit-content; max-width:40vw; margin: auto">
-	<details><summary>Pitch Accent Notes</summary>
+	<details><summary>Notes d'accent</summary>
 		<br>{{Pitch Accent Notes}}
 	</details>
 </div>
@@ -202,7 +202,7 @@ Pas de problème. Trouvez 1500 images gratuites et cohérentes à utiliser pour 
 <div lang="ja">
 {{furigana:Word Furigana}}
 
-<!-- This part enables pitch accent.
+<!-- Cette partie active les hauteurs d'accent
 
 {{#Pitch Accent}}
 	<br><div style='font-size: 24px'>{{Pitch Accent}}</div>
@@ -223,11 +223,11 @@ Pas de problème. Trouvez 1500 images gratuites et cohérentes à utiliser pour 
 	<div style="font-size: 20px; padding-top:12px">Note: {{Notes}}</div>
 {{/Notes}}
 
-<!-- This part enables pitch accent notes.
+<!-- Cette partie active les notes de hauteurs d'accent.
 
 {{#Pitch Accent Notes}}
 <div style="font-size: 20px; width: fit-content; max-width:40vw; margin: auto">
-	<details><summary>Pitch Accent Notes</summary>
+	<details><summary>Notes d'accent</summary>
 		<br>{{Pitch Accent Notes}}
 	</details>
 </div>
