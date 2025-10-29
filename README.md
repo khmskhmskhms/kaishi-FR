@@ -38,7 +38,7 @@ Pour une explication sur la façon dont Kaishi s'intègre avec l'apprentissage d
 
 ## Autres decks en lien
 
-ねむい a créé un deck pour les radicaux basé sur celui de Kaishi 1.5k, reliant tous les radicaux avec leur première occurrence dans Kaishi. Il couvre aussi quelques radicaux supplémentaires qui ne sont pas dans Kaishi. Vous pouvez **utiliser ce deck en parallèle avec Kaishi si vous avez des difficultés avec les kanjis**, puisqu'il introduit les radicaux de kanjis au fur et à mesure, pour vous aider à mieux les lire. Vous pouvez trouver le deck [here on AnkiWeb](https://ankiweb.net/shared/info/1722008986). Merci ねむい !
+ねむい a créé un deck pour les radicaux basé sur celui de Kaishi 1.5k, reliant tous les radicaux avec leur première occurrence dans Kaishi. Il couvre aussi quelques radicaux supplémentaires qui ne sont pas dans Kaishi. Vous pouvez **utiliser ce deck en parallèle avec Kaishi si vous avez des difficultés avec les kanjis**, puisqu'il introduit les radicaux de kanjis au fur et à mesure, pour vous aider à mieux les lire. Vous pouvez trouver le deck [ici sur AnkiWeb](https://ankiweb.net/shared/info/1722008986). Merci ねむい !
 
 ## Quelles options sont disponibles pour ce deck ?
 
